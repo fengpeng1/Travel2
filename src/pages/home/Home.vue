@@ -3,6 +3,7 @@
 </template>
 
 <script>
+import Header from './component.Header';
 export default {
   name: 'Home'
 };
