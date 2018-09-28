@@ -24,6 +24,8 @@ module.exports = {
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-console': 'off',
-    'semi':0
+    'semi':0,
+    'space-before-function-paren': 0, //函数参数前面要加空格
+    'space-before-blocks': 0, //函数块前面要加空格
   }
 };
