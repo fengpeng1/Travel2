@@ -1,5 +1,5 @@
 <template>
-  <div class="header">
+  <div class="header border-bottom">
     <router-link to='/'>
       <div class="header-left">
         <span class="iconfont">&#xe624;</span>
