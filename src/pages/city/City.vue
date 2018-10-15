@@ -3,7 +3,7 @@
     <city-header></city-header>
     <city-search></city-search>
     <city-list :cities="cities" :hotCities="hotCities" :letter="letter"></city-list>
-    <city-alpha :cities="cities"></city-alpha>
+    <city-alpha :cities="cities" @change="handleLetterClick"></city-alpha>
   </div>
 </template>
 
@@ -39,6 +39,9 @@ export default {
         this.cities = data.cities;
         this.hotCities = data.hotCities;
       }
+    },
+    handleLetterClick(letter) {
+      this.letter = letter;
     }
   },
   mounted() {
