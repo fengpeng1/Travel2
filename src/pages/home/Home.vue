@@ -14,6 +14,7 @@ import HomeSwiper from './component/Swiper';
 import HomeIcons from './component/Icons';
 import HomeRecommand from './component/Recommand';
 import HomeWeekend from './component/Weekend';
+
 export default {
   components: {
     HomeHeader,
